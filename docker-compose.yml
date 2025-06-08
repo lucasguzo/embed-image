@@ -1,7 +1,6 @@
-version: "3"
+version: "3.9"
 services:
   embed-image:
-    build: .
+    image: lucasguzo/embed-image:latest
     ports:
       - "8000:8000"
-    restart: unless-stopped
